@@ -1,4 +1,4 @@
-package com.blackinknit.applistacurso;
+package com.blackinknit.applistacurso.view;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import com.blackinknit.applistacurso.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,5 +22,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+
     }
 }
