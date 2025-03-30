@@ -9,8 +9,11 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.blackinknit.applistacurso.R;
+import com.blackinknit.applistacurso.model.Pessoa;
 
 public class MainActivity extends AppCompatActivity {
+
+    Pessoa pessoa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
+        pessoa = new Pessoa();
+
 
     }
+
+
 }
