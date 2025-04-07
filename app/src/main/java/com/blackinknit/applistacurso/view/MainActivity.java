@@ -14,6 +14,10 @@ import com.blackinknit.applistacurso.model.Pessoa;
 public class MainActivity extends AppCompatActivity {
 
     Pessoa pessoa;
+    Pessoa outraPessoa;
+
+    String dadosPessoa;
+    String dadosOutraPessoa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +31,35 @@ public class MainActivity extends AppCompatActivity {
         });
 
         pessoa = new Pessoa();
+        pessoa.setNome("victor");
+        pessoa.setSobreNome("Mourão");
+        pessoa.setCursoDesejado("análise e desenvolvimento de sistemas");
+        pessoa.setTelefone("991248807");
 
+        Pessoa outraPessoa = new Pessoa();
+        outraPessoa.setNome("lucas");
+        outraPessoa.setSobreNome("cavalcante");
+        outraPessoa.setCursoDesejado("análise e desenvolvimento de sistemas");
+        outraPessoa.setTelefone("95991454553");
+
+
+        dadosPessoa = "primeiro nome: ";
+        dadosPessoa += pessoa.getNome();
+        dadosPessoa += " sobrenome: ";
+        dadosPessoa += pessoa.getSobreNome();
+        dadosPessoa += " telefone: ";
+        dadosPessoa += pessoa.getTelefone();
+        dadosPessoa += " curso: ";
+        dadosPessoa += pessoa.getCursoDesejado();
+
+        dadosOutraPessoa = "primeiro nome: ";
+        dadosOutraPessoa += outraPessoa.getNome();
+        dadosOutraPessoa += " sobrenome: ";
+        dadosOutraPessoa += outraPessoa.getSobreNome();
+        dadosOutraPessoa += " telefone: ";
+        dadosOutraPessoa += outraPessoa.getTelefone();
+        dadosOutraPessoa += " curso";
+        dadosOutraPessoa += outraPessoa.getCursoDesejado();
 
     }
 
