@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.022" />
 
     <EditText
-        android:id="@+id/nameTextText"
+        android:id="@+id/nomeEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.105" />
 
     <EditText
-        android:id="@+id/surNameTextText2"
+        android:id="@+id/sobrenomeEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -52,7 +52,7 @@
         app:layout_constraintVertical_bias="0.193" />
 
     <EditText
-        android:id="@+id/cursoTextText"
+        android:id="@+id/cursoEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -67,7 +67,7 @@
         app:layout_constraintVertical_bias="0.278" />
 
     <EditText
-        android:id="@+id/telefoneTextText3"
+        android:id="@+id/telefoneEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -85,38 +85,35 @@
         android:id="@+id/limparButton"
         android:layout_width="110dp"
         android:layout_height="51dp"
+        android:layout_marginBottom="352dp"
         android:background="#53682E"
         android:text="@string/limpar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.053"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/telefoneTextText3"
-        app:layout_constraintVertical_bias="0.066" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/finalizarButton3"
+        android:id="@+id/finalizarButton"
         android:layout_width="271dp"
         android:layout_height="46dp"
+        android:layout_marginBottom="264dp"
         android:background="#53682E"
         android:text="@string/finalizar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/telefoneTextText3"
-        app:layout_constraintVertical_bias="0.391" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/salvarButton2"
+        android:id="@+id/salvarButton"
         android:layout_width="110dp"
         android:layout_height="51dp"
+        android:layout_marginBottom="352dp"
         android:background="#53682E"
         android:text="@string/salvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.946"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/telefoneTextText3"
-        app:layout_constraintVertical_bias="0.066" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
