@@ -19,10 +19,10 @@ import com.blackinknit.applistacurso.model.Pessoa;
 public class MainActivity extends AppCompatActivity {
 
     Pessoa pessoa;
-    Pessoa outraPessoa;
+    //Pessoa outraPessoa;
 
-    String dadosPessoa;
-    String dadosOutraPessoa;
+    //String dadosPessoa;
+    //String dadosOutraPessoa;
 
     EditText nomeEditText;
     EditText sobrenomeEditText;
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         pessoa.setCursoDesejado("análise e desenvolvimento de sistemas");
         pessoa.setTelefone("991248807");
 */
-        Pessoa outraPessoa = new Pessoa();
+        //Pessoa outraPessoa = new Pessoa();
         /*outraPessoa.setNome("lucas");
         outraPessoa.setSobreNome("cavalcante");
         outraPessoa.setCursoDesejado("análise e desenvolvimento de sistemas");
@@ -125,8 +125,8 @@ public class MainActivity extends AppCompatActivity {
 */
 
 
-        Log.i("PooAndroid", pessoa.toString());
-        Log.i("PooA2", outraPessoa.toString());
+        //Log.i("PooAndroid", pessoa.toString());
+        //Log.i("PooA2", outraPessoa.toString());
 
     }
 
